@@ -83,6 +83,7 @@ int		main(int argc, char **argv)
 	t_stack	*stack1;
 	t_stack	*stack2;
 
+	printf("hello!\n");
 	if (argc != 1)
 	{
 		init(&stack1);
@@ -94,3 +95,13 @@ int		main(int argc, char **argv)
 	}
 	return (0);
 }
+
+
+
+//int main()
+//{
+//	t_list *list;
+//	for (int i = 0; i < 10; ++i) {
+//		ft_lstadd_back(&list, ft_lstnew(&i));
+//	}
+//}

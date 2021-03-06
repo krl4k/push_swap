@@ -1,5 +1,4 @@
 #include "stack.h"
-#include "colors.h"
 #include "libft.h"
 
 void print_stack(t_stack *stack)
