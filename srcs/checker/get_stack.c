@@ -30,10 +30,10 @@ int is_number(const char *str)
 
 int *get_number(char *str, int begin, int end)
 {
-	int i;
+//	int i;
 	int *nbr;
 
-	i = 0;
+//	i = 0;
 	if (end - begin > 10)
 		error_handler(2);
 

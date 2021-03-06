@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kirill/CLionProjects/push_sqp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kirill/CLionProjects/push_sqp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kirill/CLionProjects/push_sqp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap">
+				<Option output="/home/kirill/CLionProjects/push_sqp/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirill/CLionProjects/push_sqp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/checker"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/includes"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/srcs"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/includes"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack/includes"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/libft"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap/fast">
+				<Option output="/home/kirill/CLionProjects/push_sqp/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kirill/CLionProjects/push_sqp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/checker"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/includes"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/srcs"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/includes"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack/includes"/>
+					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/libft"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kirill/CLionProjects/push_sqp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/checker/error_handler.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/checker/get_stack.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/checker/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_atoi.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_bzero.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_calloc.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_is_equal.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isalnum.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isalpha.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isascii.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isdigit.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isprint.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_itoa.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lennbr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstadd_back.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstadd_front.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstclear.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstdelone.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstfree_cont.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstiter.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstlast.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstmap.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstnew.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstsize.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memccpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memcmp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memcpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memmove.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memset.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_perror.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putchar_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putendl_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putnbr_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putstr_fd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_realloc.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_setsplit.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_split.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strcmp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strcpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strdup.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strjoin.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strlcat.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strlcpy.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strlen.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strmapi.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strncmp.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strnstr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strrchr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strtrim.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_substr.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_tolower.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_toupper.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/libft/get_next_line.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/clear.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/print_stack.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/stack.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/stack_utils.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

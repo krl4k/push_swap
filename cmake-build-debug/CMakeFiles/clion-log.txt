@@ -1,0 +1,37 @@
+/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kirill/CLionProjects/push_sqp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kirill/CLionProjects/push_sqp/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 1: /usr/bin/cc -xc -I/home/kirill/CLionProjects/push_sqp/checker -I/home/kirill/CLionProjects/push_sqp/checker/includes -I/home/kirill/CLionProjects/push_sqp/checker/srcs -I/home/kirill/CLionProjects/push_sqp/includes -I/home/kirill/CLionProjects/push_sqp/srcs/stack -I/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs -I/home/kirill/CLionProjects/push_sqp/srcs/stack/includes -I/home/kirill/CLionProjects/push_sqp/srcs/libft -Wall -Wextra -g -std=gnu99 -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=/usr/bin/cc
+	OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+	OFFLOAD_TARGET_DEFAULT=1
+	Target: x86_64-linux-gnu
+	Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+	Thread model: posix
+	gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+	COLLECT_GCC_OPTIONS='-I' '/home/kirill/CLionProjects/push_sqp/checker' '-I' '/home/kirill/CLionProjects/push_sqp/checker/includes' '-I' '/home/kirill/CLionProjects/push_sqp/checker/srcs' '-I' '/home/kirill/CLionProjects/push_sqp/includes' '-I' '/home/kirill/CLionProjects/push_sqp/srcs/stack' '-I' '/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs' '-I' '/home/kirill/CLionProjects/push_sqp/srcs/stack/includes' '-I' '/home/kirill/CLionProjects/push_sqp/srcs/libft' '-Wall' '-Wextra' '-g' '-std=gnu99' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-mtune=generic' '-march=x86-64'
+	 /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -E -quiet -v @/tmp/ccrnhtOx -imultiarch x86_64-linux-gnu -D ___CIDR_DEFINITIONS_END /tmp/compiler-file8421680957334912265 -mtune=generic -march=x86-64 -std=gnu99 -Wall -Wextra -fpch-preprocess -g -fworking-directory -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -dD
+	ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+	ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+	ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+	cc1: warning: /home/kirill/CLionProjects/push_sqp/checker: not a directory
+	cc1: error: /home/kirill/CLionProjects/push_sqp/checker/includes: Not a directory
+	cc1: error: /home/kirill/CLionProjects/push_sqp/checker/srcs: Not a directory
+	ignoring nonexistent directory "/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs"
+	ignoring nonexistent directory "/home/kirill/CLionProjects/push_sqp/srcs/stack/includes"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 /home/kirill/CLionProjects/push_sqp/includes
+	 /home/kirill/CLionProjects/push_sqp/srcs/stack
+	 /home/kirill/CLionProjects/push_sqp/srcs/libft
+	 /usr/lib/gcc/x86_64-linux-gnu/9/include
+	 /usr/local/include
+	 /usr/include/x86_64-linux-gnu
+	 /usr/include
+	End of search list.
+	
+	
