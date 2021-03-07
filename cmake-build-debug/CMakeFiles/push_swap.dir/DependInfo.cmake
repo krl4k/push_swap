@@ -60,7 +60,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_toupper.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/libft/get_next_line.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/stack/clear.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/clear.c.o"
+  "/home/kirill/CLionProjects/push_sqp/srcs/stack/pa_pb.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/stack/print_stack.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o"
+  "/home/kirill/CLionProjects/push_sqp/srcs/stack/sa_sb_ss.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/stack/stack.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/stack.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/stack/stack_utils.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o"
   )

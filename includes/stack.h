@@ -24,6 +24,7 @@ typedef struct		s_node
 typedef struct	s_stack {
     t_node		*top;
     int			size_;
+    int			size_started;
 	int			(*is_empty)(struct s_stack *stack);
 	void		(*push)(struct s_stack *stack, int data);
 	void		(*pop)(struct s_stack *stack);
@@ -32,6 +33,12 @@ typedef struct	s_stack {
 void	init(t_stack **stack);
 int		is_sorted(t_stack *stack);
 void	print_stack(t_stack *stack);
+void print_stacks(t_stack *stack1, t_stack *stack2);
 void	clear(t_stack **stack);
+
+
+
+void sa_sb_ss(t_stack *stack1, t_stack *stack2, int operation);
+void pa_pb(t_stack *stack1, t_stack *stack2, int operation);
 
 #endif

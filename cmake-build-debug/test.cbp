@@ -260,7 +260,13 @@
 		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/clear.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/pa_pb.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/print_stack.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/sa_sb_ss.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/home/kirill/CLionProjects/push_sqp/srcs/stack/stack.c">

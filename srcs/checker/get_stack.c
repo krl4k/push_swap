@@ -171,4 +171,5 @@ void get_stack(t_stack *stack1, int argc, char **argv)
 	if (!stack_array)
 		error_handler(2);
 	array_to_stack(stack1, stack_array, argc - 2);
+	stack1->size_started = stack1->size_;
 }

@@ -1655,6 +1655,33 @@ srcs/stack/clear.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/clear.c.s
 .PHONY : srcs/stack/clear.c.s
 
+srcs/stack/pa_pb.o: srcs/stack/pa_pb.c.o
+
+.PHONY : srcs/stack/pa_pb.o
+
+# target to build an object file
+srcs/stack/pa_pb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o
+.PHONY : srcs/stack/pa_pb.c.o
+
+srcs/stack/pa_pb.i: srcs/stack/pa_pb.c.i
+
+.PHONY : srcs/stack/pa_pb.i
+
+# target to preprocess a source file
+srcs/stack/pa_pb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.i
+.PHONY : srcs/stack/pa_pb.c.i
+
+srcs/stack/pa_pb.s: srcs/stack/pa_pb.c.s
+
+.PHONY : srcs/stack/pa_pb.s
+
+# target to generate assembly for a file
+srcs/stack/pa_pb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.s
+.PHONY : srcs/stack/pa_pb.c.s
+
 srcs/stack/print_stack.o: srcs/stack/print_stack.c.o
 
 .PHONY : srcs/stack/print_stack.o
@@ -1681,6 +1708,33 @@ srcs/stack/print_stack.s: srcs/stack/print_stack.c.s
 srcs/stack/print_stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.s
 .PHONY : srcs/stack/print_stack.c.s
+
+srcs/stack/sa_sb_ss.o: srcs/stack/sa_sb_ss.c.o
+
+.PHONY : srcs/stack/sa_sb_ss.o
+
+# target to build an object file
+srcs/stack/sa_sb_ss.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o
+.PHONY : srcs/stack/sa_sb_ss.c.o
+
+srcs/stack/sa_sb_ss.i: srcs/stack/sa_sb_ss.c.i
+
+.PHONY : srcs/stack/sa_sb_ss.i
+
+# target to preprocess a source file
+srcs/stack/sa_sb_ss.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.i
+.PHONY : srcs/stack/sa_sb_ss.c.i
+
+srcs/stack/sa_sb_ss.s: srcs/stack/sa_sb_ss.c.s
+
+.PHONY : srcs/stack/sa_sb_ss.s
+
+# target to generate assembly for a file
+srcs/stack/sa_sb_ss.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.s
+.PHONY : srcs/stack/sa_sb_ss.c.s
 
 srcs/stack/stack.o: srcs/stack/stack.c.o
 
@@ -1913,9 +1967,15 @@ help:
 	@echo "... srcs/stack/clear.o"
 	@echo "... srcs/stack/clear.i"
 	@echo "... srcs/stack/clear.s"
+	@echo "... srcs/stack/pa_pb.o"
+	@echo "... srcs/stack/pa_pb.i"
+	@echo "... srcs/stack/pa_pb.s"
 	@echo "... srcs/stack/print_stack.o"
 	@echo "... srcs/stack/print_stack.i"
 	@echo "... srcs/stack/print_stack.s"
+	@echo "... srcs/stack/sa_sb_ss.o"
+	@echo "... srcs/stack/sa_sb_ss.i"
+	@echo "... srcs/stack/sa_sb_ss.s"
 	@echo "... srcs/stack/stack.o"
 	@echo "... srcs/stack/stack.i"
 	@echo "... srcs/stack/stack.s"

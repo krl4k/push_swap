@@ -90,9 +90,22 @@ CMakeFiles/push_swap.dir/srcs/stack/clear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/stack/clear.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirill/CLionProjects/push_sqp/srcs/stack/clear.c -o CMakeFiles/push_swap.dir/srcs/stack/clear.c.s
 
+CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o: ../srcs/stack/pa_pb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/stack/pa_pb.c
+
+CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kirill/CLionProjects/push_sqp/srcs/stack/pa_pb.c > CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.i
+
+CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirill/CLionProjects/push_sqp/srcs/stack/pa_pb.c -o CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.s
+
 CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o: ../srcs/stack/print_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/stack/print_stack.c
 
 CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.i: cmake_force
@@ -103,9 +116,22 @@ CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirill/CLionProjects/push_sqp/srcs/stack/print_stack.c -o CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.s
 
+CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o: ../srcs/stack/sa_sb_ss.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/stack/sa_sb_ss.c
+
+CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kirill/CLionProjects/push_sqp/srcs/stack/sa_sb_ss.c > CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.i
+
+CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kirill/CLionProjects/push_sqp/srcs/stack/sa_sb_ss.c -o CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.s
+
 CMakeFiles/push_swap.dir/srcs/stack/stack.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/stack/stack.c.o: ../srcs/stack/stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/srcs/stack/stack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/srcs/stack/stack.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/stack/stack.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/stack/stack.c
 
 CMakeFiles/push_swap.dir/srcs/stack/stack.c.i: cmake_force
@@ -118,7 +144,7 @@ CMakeFiles/push_swap.dir/srcs/stack/stack.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o: ../srcs/stack/stack_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/stack/stack_utils.c
 
 CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.i: cmake_force
@@ -131,7 +157,7 @@ CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o: ../srcs/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_atoi.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.i: cmake_force
@@ -144,7 +170,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.o: ../srcs/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_bzero.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.i: cmake_force
@@ -157,7 +183,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_bzero.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.o: ../srcs/libft/ft_calloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_calloc.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.i: cmake_force
@@ -170,7 +196,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_calloc.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.o: ../srcs/libft/ft_is_equal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_is_equal.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.i: cmake_force
@@ -183,7 +209,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_is_equal.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.o: ../srcs/libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isalnum.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.i: cmake_force
@@ -196,7 +222,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_isalnum.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.o: ../srcs/libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isalpha.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.i: cmake_force
@@ -209,7 +235,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_isalpha.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.o: ../srcs/libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isascii.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.i: cmake_force
@@ -222,7 +248,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_isascii.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.o: ../srcs/libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isdigit.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.i: cmake_force
@@ -235,7 +261,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_isdigit.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.o: ../srcs/libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_isprint.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.i: cmake_force
@@ -248,7 +274,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_isprint.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.o: ../srcs/libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_itoa.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.i: cmake_force
@@ -261,7 +287,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_itoa.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.o: ../srcs/libft/ft_lennbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lennbr.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.i: cmake_force
@@ -274,7 +300,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lennbr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.o: ../srcs/libft/ft_lstadd_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstadd_back.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.i: cmake_force
@@ -287,7 +313,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_back.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.o: ../srcs/libft/ft_lstadd_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstadd_front.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.i: cmake_force
@@ -300,7 +326,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstadd_front.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.o: ../srcs/libft/ft_lstclear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstclear.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.i: cmake_force
@@ -313,7 +339,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstclear.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.o: ../srcs/libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstdelone.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.i: cmake_force
@@ -326,7 +352,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstdelone.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.o: ../srcs/libft/ft_lstfree_cont.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstfree_cont.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.i: cmake_force
@@ -339,7 +365,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstfree_cont.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.o: ../srcs/libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstiter.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.i: cmake_force
@@ -352,7 +378,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstiter.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.o: ../srcs/libft/ft_lstlast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstlast.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.i: cmake_force
@@ -365,7 +391,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstlast.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.o: ../srcs/libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstmap.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.i: cmake_force
@@ -378,7 +404,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstmap.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.o: ../srcs/libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstnew.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.i: cmake_force
@@ -391,7 +417,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstnew.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.o: ../srcs/libft/ft_lstsize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_lstsize.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.i: cmake_force
@@ -404,7 +430,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_lstsize.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.o: ../srcs/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memccpy.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.i: cmake_force
@@ -417,7 +443,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_memccpy.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.o: ../srcs/libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memchr.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.i: cmake_force
@@ -430,7 +456,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_memchr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.o: ../srcs/libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memcmp.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.i: cmake_force
@@ -443,7 +469,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_memcmp.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.o: ../srcs/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memcpy.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.i: cmake_force
@@ -456,7 +482,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_memcpy.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.o: ../srcs/libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memmove.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.i: cmake_force
@@ -469,7 +495,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_memmove.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.o: ../srcs/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_memset.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.i: cmake_force
@@ -482,7 +508,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_memset.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.o: ../srcs/libft/ft_perror.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_perror.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.i: cmake_force
@@ -495,7 +521,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_perror.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.o: ../srcs/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putchar_fd.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.i: cmake_force
@@ -508,7 +534,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_putchar_fd.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.o: ../srcs/libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putendl_fd.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.i: cmake_force
@@ -521,7 +547,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_putendl_fd.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.o: ../srcs/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putnbr_fd.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.i: cmake_force
@@ -534,7 +560,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_putnbr_fd.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.o: ../srcs/libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_putstr_fd.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.i: cmake_force
@@ -547,7 +573,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_putstr_fd.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.o: ../srcs/libft/ft_realloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_realloc.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.i: cmake_force
@@ -560,7 +586,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_realloc.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.o: ../srcs/libft/ft_setsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_setsplit.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.i: cmake_force
@@ -573,7 +599,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_setsplit.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.o: ../srcs/libft/ft_split.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_split.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.i: cmake_force
@@ -586,7 +612,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_split.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.o: ../srcs/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strchr.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.i: cmake_force
@@ -599,7 +625,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strchr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.o: ../srcs/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strcmp.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.i: cmake_force
@@ -612,7 +638,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strcmp.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.o: ../srcs/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strcpy.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.i: cmake_force
@@ -625,7 +651,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strcpy.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.o: ../srcs/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strdup.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.i: cmake_force
@@ -638,7 +664,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.o: ../srcs/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strjoin.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.i: cmake_force
@@ -651,7 +677,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.o: ../srcs/libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strlcat.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.i: cmake_force
@@ -664,7 +690,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.o: ../srcs/libft/ft_strlcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strlcpy.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.i: cmake_force
@@ -677,7 +703,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strlcpy.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.o: ../srcs/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strlen.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.i: cmake_force
@@ -690,7 +716,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.o: ../srcs/libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strmapi.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.i: cmake_force
@@ -703,7 +729,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.o: ../srcs/libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strncmp.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.i: cmake_force
@@ -716,7 +742,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.o: ../srcs/libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strnstr.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.i: cmake_force
@@ -729,7 +755,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.o: ../srcs/libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strrchr.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.i: cmake_force
@@ -742,7 +768,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.o: ../srcs/libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_strtrim.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.i: cmake_force
@@ -755,7 +781,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.o: ../srcs/libft/ft_substr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_substr.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.i: cmake_force
@@ -768,7 +794,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_substr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o: ../srcs/libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_tolower.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.i: cmake_force
@@ -781,7 +807,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o: ../srcs/libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/ft_toupper.c
 
 CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.i: cmake_force
@@ -794,7 +820,7 @@ CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o: ../srcs/libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/libft/get_next_line.c
 
 CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.i: cmake_force
@@ -807,7 +833,7 @@ CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o: ../srcs/checker/error_handler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/checker/error_handler.c
 
 CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.i: cmake_force
@@ -820,7 +846,7 @@ CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o: ../srcs/checker/get_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/checker/get_stack.c
 
 CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.i: cmake_force
@@ -833,7 +859,7 @@ CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/srcs/checker/main.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/srcs/checker/main.c.o: ../srcs/checker/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/push_swap.dir/srcs/checker/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/push_swap.dir/srcs/checker/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/srcs/checker/main.c.o   -c /home/kirill/CLionProjects/push_sqp/srcs/checker/main.c
 
 CMakeFiles/push_swap.dir/srcs/checker/main.c.i: cmake_force
@@ -847,7 +873,9 @@ CMakeFiles/push_swap.dir/srcs/checker/main.c.s: cmake_force
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/srcs/stack/clear.c.o" \
+"CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o" \
 "CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o" \
+"CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o" \
 "CMakeFiles/push_swap.dir/srcs/stack/stack.c.o" \
 "CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o" \
 "CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o" \
@@ -910,7 +938,9 @@ push_swap_OBJECTS = \
 push_swap_EXTERNAL_OBJECTS =
 
 push_swap: CMakeFiles/push_swap.dir/srcs/stack/clear.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o
+push_swap: CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/stack/stack.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o
@@ -970,7 +1000,7 @@ push_swap: CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o
 push_swap: CMakeFiles/push_swap.dir/srcs/checker/main.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

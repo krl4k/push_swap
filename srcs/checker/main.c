@@ -14,9 +14,6 @@
 
 #include "checker.h"
 
-
-
-
 int get_operation(char *line)
 {
 	if (ft_strcmp(line, "sa") == 0)
@@ -44,46 +41,65 @@ int get_operation(char *line)
 	return (-1);
 }
 
-void do_operation(t_stack *stack, t_stack *stack2, t_list *operations)
+void do_operation(t_stack *stack1, t_stack *stack2, int operation)
+{
+	if (operation >= SA && operation <= SS)
+		sa_sb_ss(stack1, stack2, operation);
+	if (operation >= PA && operation <= PB)
+		pa_pb(stack1, stack2, operation);
+}
+
+void do_operations(t_stack *stack1, t_stack *stack2, t_list *operations)
 {
 	while (operations)
 	{
-
+		print_stacks(stack1, stack2);
+		sleep(1);
+//		int cl = stack1->size_ > stack2->size_ ? stack1->size_ : stack2->size_;
+//		for (int i = 0; i < cl; ++i)
+//		{
+//			printf("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
+//			printf("\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r");
+//			printf("                ");
+//			printf("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
+//			printf("\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r");
+//		}
+		do_operation(stack1, stack2, (*(int *)(operations->content)));
+		operations = operations->next;
 	}
+	print_stacks(stack1, stack2);
+	sleep(1);
+//	int cl = stack1->size_ > stack2->size_ ? stack1->size_ : stack2->size_;
+//	for (int i = 0; i < cl; ++i)
+//	{
+//		printf("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
+//		printf("                ");
+//		printf("\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b");
+//	}
 }
 
 void 	process(t_stack *stack1, t_stack *stack2)
 {
 	char *line;
 	int *operation;
-	t_list *operation_list = NULL;
+	t_list *operation_list;
 
-	(void)stack2;
+	operation = NULL;
+	operation_list = NULL;
 	while (get_next_line(1, &line) != 0)
 	{
 		operation = (int *)malloc(sizeof(int));
 		*operation = get_operation(line);
 		if (*operation < 0 || *operation > 11)
-		{
 			error_handler(1);
-		}
-		ft_lstadd_front(&operation_list, ft_lstnew((int *)(operation)));
+		ft_lstadd_back(&operation_list, ft_lstnew((int *)(operation)));
 	}
-	t_list *tmp = operation_list;
-	printf("tut\n");
-//	while (tmp->next)
-//	{
-//		printf("oper = %d\n", (*(int *)(tmp->content)));
-//		tmp = tmp->next;
-//	}
-
-	printf("operation start!\n");
-	do_operation(stack1, stack2, operation_list);
-
-	if (is_sorted(stack1))
-		ft_putstr_fd(GREEN_COLOR"OK"END_COLOR, 1);
+	do_operations(stack1, stack2, operation_list);
+//	printf("stack_size_ %d, stack_started_size %d\n", stack1->size_, stack1->size_started);
+	if (is_sorted(stack1) && stack1->size_ == stack1->size_started)
+		ft_putstr_fd(GREEN_COLOR"OK\n"END_COLOR, 1);
 	else
-		ft_putstr_fd(RED_COLOR"KO"END_COLOR, 1);
+		ft_putstr_fd(RED_COLOR"KO\n"END_COLOR, 1);
 }
 
 int		main(int argc, char **argv)
@@ -97,8 +113,8 @@ int		main(int argc, char **argv)
 		init(&stack2);
 		get_stack(stack1, argc, argv);
 		process(stack1, stack2);
-
-//	print_stack(stack);
+//		print_stack(stack1);
+//		clear(&stack1);
 	}
 	return (0);
 }

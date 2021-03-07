@@ -12,7 +12,8 @@ CHECKER_DIR   = $(SRCS_DIR)checker/
 STACK_DIR     = $(SRCS_DIR)stack/
 
 SRCS_STACK = $(addprefix $(STACK_DIR), \
-                clear.c print_stack.c stack.c stack_utils.c )
+                clear.c print_stack.c stack.c stack_utils.c \
+                sa_sb_ss.c pa_pb.c)
 
 SRCS_CHECKER = $(addprefix $(CHECKER_DIR), \
                 main.c get_stack.c error_handler.c)
