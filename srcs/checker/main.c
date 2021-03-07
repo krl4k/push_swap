@@ -44,34 +44,42 @@ int get_operation(char *line)
 	return (-1);
 }
 
-//void do_operation(t_stack *stack, t_stack *stack2, int operation)
-//{
-//
-//}
+void do_operation(t_stack *stack, t_stack *stack2, t_list *operations)
+{
+	while (operations)
+	{
+
+	}
+}
 
 void 	process(t_stack *stack1, t_stack *stack2)
 {
 	char *line;
-	int operation;
-	t_list *operation_list;
+	int *operation;
+	t_list *operation_list = NULL;
 
 	(void)stack2;
 	while (get_next_line(1, &line) != 0)
 	{
-		operation = get_operation(line);
-		if (operation < 0 || operation > 11)
+		operation = (int *)malloc(sizeof(int));
+		*operation = get_operation(line);
+		if (*operation < 0 || *operation > 11)
 		{
 			error_handler(1);
 		}
-		ft_lstadd_front(&operation_list, ft_lstnew((void *)(&operation)));
+		ft_lstadd_front(&operation_list, ft_lstnew((int *)(operation)));
 	}
 	t_list *tmp = operation_list;
 	printf("tut\n");
-	while (tmp)
-	{
-		printf("oper = %d\n", (*(int *)(tmp->content)));
-	}
-//	do_operation(stack1, stack2, operation);
+//	while (tmp->next)
+//	{
+//		printf("oper = %d\n", (*(int *)(tmp->content)));
+//		tmp = tmp->next;
+//	}
+
+	printf("operation start!\n");
+	do_operation(stack1, stack2, operation_list);
+
 	if (is_sorted(stack1))
 		ft_putstr_fd(GREEN_COLOR"OK"END_COLOR, 1);
 	else
@@ -83,7 +91,6 @@ int		main(int argc, char **argv)
 	t_stack	*stack1;
 	t_stack	*stack2;
 
-	printf("hello!\n");
 	if (argc != 1)
 	{
 		init(&stack1);

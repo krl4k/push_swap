@@ -55,12 +55,10 @@ int 	is_same_value(int *array, int count, int value)
 	{
 		if (array[i] == value)
 		{
-//			printf("\n");
 			return (1);
 		}
 		i++;
 	}
-//	printf("\n");
 	return (0);
 }
 
@@ -76,10 +74,7 @@ int is_valid_string(char *str)
 	while (str[i] && str[i] != ' ')
 	{
 		if (!ft_isdigit(str[i]))
-		{
-			printf("IS NOT VALID!!!!");
 			error_handler(2);
-		}
 		k++;
 		i++;
 	}
@@ -88,6 +83,7 @@ int is_valid_string(char *str)
 	return (1);
 }
 
+// todo min_INT
 void check_string(t_list **list, char *str)
 {
 	int	i;
@@ -100,13 +96,11 @@ void check_string(t_list **list, char *str)
 	{
 		while (str[i] == ' ')
 			i++;
-		printf("is_valid!\n");
 		if(is_valid_string(&str[i]))
 		{
 			k = 0;
 			while (str[i + k] != '\0' && str[i + k] != ' ')
 				k++;
-//			printf("get_number±\n");
 			nbr = get_number(str, i, k);
 			ft_lstadd_back(list, ft_lstnew(nbr));
 			i += (k - 1);
@@ -130,6 +124,7 @@ void 	list_to_array(t_list *list, int *stack)
 		i++;
 		temp = temp->next;
 	}
+	ft_lstclear(&list, ft_lstfree_cont);
 }
 
 
@@ -151,10 +146,7 @@ int		*get_stack_in_array(int ac, char **av)
 	if (!stack)
 		error_handler(0);
 	list_to_array(numbers_list, stack);
-//	for (int j = 0; j < ft_lstsize(numbers_list); ++j)
-//	{
-//		printf("stack[%d]  = %d\n", j, stack[j]);
-//	}
+
 	return (stack);
 }
 

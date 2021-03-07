@@ -44,9 +44,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/kirill/CLionProjects/push_sqp/checker"/>
-					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/includes"/>
-					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/srcs"/>
 					<Add directory="/home/kirill/CLionProjects/push_sqp/includes"/>
 					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack"/>
 					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs"/>
@@ -74,9 +71,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/kirill/CLionProjects/push_sqp/checker"/>
-					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/includes"/>
-					<Add directory="/home/kirill/CLionProjects/push_sqp/checker/srcs"/>
 					<Add directory="/home/kirill/CLionProjects/push_sqp/includes"/>
 					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack"/>
 					<Add directory="/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs"/>

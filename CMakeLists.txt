@@ -11,9 +11,6 @@ file(GLOB SRCS_LIBFT srcs/libft/*.c)
 file(GLOB SRCS_CHECKER srcs/checker/*.c)
 
 include_directories(
-        checker/
-        checker/includes
-        checker/srcs
         includes/
         srcs/stack/
         srcs/stack/srcs/
