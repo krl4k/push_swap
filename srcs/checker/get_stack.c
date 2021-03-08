@@ -46,7 +46,7 @@ int *get_number(char *str, int begin, int end)
 	return (nbr);
 }
 
-int 	is_same_value(int *array, int count, int value)
+int 	is_same_value(const int *array, int count, int value)
 {
 	int i;
 
@@ -88,21 +88,21 @@ void check_string(t_list **list, char *str)
 {
 	int	i;
 	int k;
-	int	*nbr;
+	char *n;
 
 	i = 0;
-	nbr = 0;
+	k = 0;
 	while (str[i])
 	{
 		while (str[i] == ' ')
 			i++;
 		if(is_valid_string(&str[i]))
 		{
-			k = 0;
 			while (str[i + k] != '\0' && str[i + k] != ' ')
 				k++;
-			nbr = get_number(str, i, k);
-			ft_lstadd_back(list, ft_lstnew(nbr));
+			n = ft_substr(str, i, k);
+			check_number(n);
+			ft_lstadd_back(list, ft_lstnew(n));
 			i += (k - 1);
 		}
 		i++;
@@ -118,7 +118,8 @@ void 	list_to_array(t_list *list, int *stack)
 	temp = list;
 	while (temp)
 	{
-		stack[i] = (*((int *)(temp->content)));
+		stack[i] = ft_atoi((char *)(temp->content));
+//		printf("stack[%d] = %d\n", i, stack[i]);
 		if (is_same_value(stack, i, stack[i]))
 			error_handler(2);
 		i++;
@@ -128,25 +129,22 @@ void 	list_to_array(t_list *list, int *stack)
 }
 
 
-int		*get_stack_in_array(int ac, char **av)
+int		*get_stack_in_array(int ac, char **av, int *size, int i)
 {
-	int i;
 	int *stack;
 	t_list *numbers_list;
 
 	numbers_list = NULL;
-	i = 1;
 	while (i < ac)
 	{
 		check_string(&numbers_list, av[i]);
 		i++;
 	}
-	printf("worked!\n");
-	stack = (int *)ft_calloc(ft_lstsize(numbers_list), sizeof(int));
+	*size = ft_lstsize(numbers_list);
+	stack = (int *)ft_calloc(*size, sizeof(int));
 	if (!stack)
 		error_handler(0);
 	list_to_array(numbers_list, stack);
-
 	return (stack);
 }
 
@@ -163,13 +161,45 @@ void array_to_stack(t_stack *stack, int *stack_array, int count)
 	}
 }
 
-void get_stack(t_stack *stack1, int argc, char **argv)
+int  check_features(t_features *features, char **argv)
+{
+	int i;
+
+	i = 1;
+	if (ft_strcmp(argv[1], "-v") == 0)
+	{
+		features->debug = 1;
+		i++;
+		if (ft_strcmp(argv[2], "-c") == 0)
+		{
+			features->last_operation = 1;
+			i++;
+		}
+	}
+	if (ft_strcmp(argv[1], "-c") == 0)
+	{
+		features->last_operation = 1;
+		i++;
+		if (ft_strcmp(argv[2], "-v") == 0)
+		{
+			features->debug = 1;
+			i++;
+		}
+	}
+	return (i);
+}
+
+
+void get_stack(t_stack *stack1, int argc, char **argv, t_features *features)
 {
 	int		*stack_array;
+	int		size;
+	int		i;
 
-	stack_array = get_stack_in_array(argc, argv);
+	i = check_features(features, argv);
+	stack_array = get_stack_in_array(argc, argv, &size, i);
 	if (!stack_array)
 		error_handler(2);
-	array_to_stack(stack1, stack_array, argc - 2);
+	array_to_stack(stack1, stack_array, size - 1);
 	stack1->size_started = stack1->size_;
 }

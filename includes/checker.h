@@ -29,13 +29,19 @@
 #define RRR 11
 
 
+typedef struct s_features
+{
+	int debug;
+	int last_operation;
+}				t_features;
+
 /*
 ** @param argc
 ** @param argv
 ** @return array of numbers received from argv
 */
 
-int		*get_stack_in_array(int ac, char **av);
+int		*get_stack_in_array(int ac, char **av, int *size, int i);
 
 /*
 ** @param1  stack
@@ -44,7 +50,11 @@ int		*get_stack_in_array(int ac, char **av);
 
 void array_to_stack(t_stack *stack, int *stack_array, int count);
 
-void get_stack(t_stack *stack1, int argc, char **argv);
+void check_number(const char *n);
+
+
+void get_stack(t_stack *stack1, int argc, char **argv, t_features *features);
+
 
 
 int is_number(const char *str);
