@@ -170,6 +170,33 @@ srcs/checker/error_handler.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.s
 .PHONY : srcs/checker/error_handler.c.s
 
+srcs/checker/get_number.o: srcs/checker/get_number.c.o
+
+.PHONY : srcs/checker/get_number.o
+
+# target to build an object file
+srcs/checker/get_number.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker/get_number.c.o
+.PHONY : srcs/checker/get_number.c.o
+
+srcs/checker/get_number.i: srcs/checker/get_number.c.i
+
+.PHONY : srcs/checker/get_number.i
+
+# target to preprocess a source file
+srcs/checker/get_number.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker/get_number.c.i
+.PHONY : srcs/checker/get_number.c.i
+
+srcs/checker/get_number.s: srcs/checker/get_number.c.s
+
+.PHONY : srcs/checker/get_number.s
+
+# target to generate assembly for a file
+srcs/checker/get_number.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/checker/get_number.c.s
+.PHONY : srcs/checker/get_number.c.s
+
 srcs/checker/get_stack.o: srcs/checker/get_stack.c.o
 
 .PHONY : srcs/checker/get_stack.o
@@ -1628,167 +1655,59 @@ srcs/libft/get_next_line.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.s
 .PHONY : srcs/libft/get_next_line.c.s
 
-srcs/stack/clear.o: srcs/stack/clear.c.o
+srcs/push_swap/3_elems.o: srcs/push_swap/3_elems.c.o
 
-.PHONY : srcs/stack/clear.o
-
-# target to build an object file
-srcs/stack/clear.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/clear.c.o
-.PHONY : srcs/stack/clear.c.o
-
-srcs/stack/clear.i: srcs/stack/clear.c.i
-
-.PHONY : srcs/stack/clear.i
-
-# target to preprocess a source file
-srcs/stack/clear.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/clear.c.i
-.PHONY : srcs/stack/clear.c.i
-
-srcs/stack/clear.s: srcs/stack/clear.c.s
-
-.PHONY : srcs/stack/clear.s
-
-# target to generate assembly for a file
-srcs/stack/clear.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/clear.c.s
-.PHONY : srcs/stack/clear.c.s
-
-srcs/stack/pa_pb.o: srcs/stack/pa_pb.c.o
-
-.PHONY : srcs/stack/pa_pb.o
+.PHONY : srcs/push_swap/3_elems.o
 
 # target to build an object file
-srcs/stack/pa_pb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o
-.PHONY : srcs/stack/pa_pb.c.o
+srcs/push_swap/3_elems.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap/3_elems.c.o
+.PHONY : srcs/push_swap/3_elems.c.o
 
-srcs/stack/pa_pb.i: srcs/stack/pa_pb.c.i
+srcs/push_swap/3_elems.i: srcs/push_swap/3_elems.c.i
 
-.PHONY : srcs/stack/pa_pb.i
+.PHONY : srcs/push_swap/3_elems.i
 
 # target to preprocess a source file
-srcs/stack/pa_pb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.i
-.PHONY : srcs/stack/pa_pb.c.i
+srcs/push_swap/3_elems.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap/3_elems.c.i
+.PHONY : srcs/push_swap/3_elems.c.i
 
-srcs/stack/pa_pb.s: srcs/stack/pa_pb.c.s
+srcs/push_swap/3_elems.s: srcs/push_swap/3_elems.c.s
 
-.PHONY : srcs/stack/pa_pb.s
+.PHONY : srcs/push_swap/3_elems.s
 
 # target to generate assembly for a file
-srcs/stack/pa_pb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.s
-.PHONY : srcs/stack/pa_pb.c.s
+srcs/push_swap/3_elems.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap/3_elems.c.s
+.PHONY : srcs/push_swap/3_elems.c.s
 
-srcs/stack/print_stack.o: srcs/stack/print_stack.c.o
+srcs/push_swap/push_swap.o: srcs/push_swap/push_swap.c.o
 
-.PHONY : srcs/stack/print_stack.o
+.PHONY : srcs/push_swap/push_swap.o
 
 # target to build an object file
-srcs/stack/print_stack.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o
-.PHONY : srcs/stack/print_stack.c.o
+srcs/push_swap/push_swap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap/push_swap.c.o
+.PHONY : srcs/push_swap/push_swap.c.o
 
-srcs/stack/print_stack.i: srcs/stack/print_stack.c.i
+srcs/push_swap/push_swap.i: srcs/push_swap/push_swap.c.i
 
-.PHONY : srcs/stack/print_stack.i
-
-# target to preprocess a source file
-srcs/stack/print_stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.i
-.PHONY : srcs/stack/print_stack.c.i
-
-srcs/stack/print_stack.s: srcs/stack/print_stack.c.s
-
-.PHONY : srcs/stack/print_stack.s
-
-# target to generate assembly for a file
-srcs/stack/print_stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.s
-.PHONY : srcs/stack/print_stack.c.s
-
-srcs/stack/sa_sb_ss.o: srcs/stack/sa_sb_ss.c.o
-
-.PHONY : srcs/stack/sa_sb_ss.o
-
-# target to build an object file
-srcs/stack/sa_sb_ss.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o
-.PHONY : srcs/stack/sa_sb_ss.c.o
-
-srcs/stack/sa_sb_ss.i: srcs/stack/sa_sb_ss.c.i
-
-.PHONY : srcs/stack/sa_sb_ss.i
+.PHONY : srcs/push_swap/push_swap.i
 
 # target to preprocess a source file
-srcs/stack/sa_sb_ss.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.i
-.PHONY : srcs/stack/sa_sb_ss.c.i
+srcs/push_swap/push_swap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap/push_swap.c.i
+.PHONY : srcs/push_swap/push_swap.c.i
 
-srcs/stack/sa_sb_ss.s: srcs/stack/sa_sb_ss.c.s
+srcs/push_swap/push_swap.s: srcs/push_swap/push_swap.c.s
 
-.PHONY : srcs/stack/sa_sb_ss.s
-
-# target to generate assembly for a file
-srcs/stack/sa_sb_ss.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.s
-.PHONY : srcs/stack/sa_sb_ss.c.s
-
-srcs/stack/stack.o: srcs/stack/stack.c.o
-
-.PHONY : srcs/stack/stack.o
-
-# target to build an object file
-srcs/stack/stack.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/stack.c.o
-.PHONY : srcs/stack/stack.c.o
-
-srcs/stack/stack.i: srcs/stack/stack.c.i
-
-.PHONY : srcs/stack/stack.i
-
-# target to preprocess a source file
-srcs/stack/stack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/stack.c.i
-.PHONY : srcs/stack/stack.c.i
-
-srcs/stack/stack.s: srcs/stack/stack.c.s
-
-.PHONY : srcs/stack/stack.s
+.PHONY : srcs/push_swap/push_swap.s
 
 # target to generate assembly for a file
-srcs/stack/stack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/stack.c.s
-.PHONY : srcs/stack/stack.c.s
-
-srcs/stack/stack_utils.o: srcs/stack/stack_utils.c.o
-
-.PHONY : srcs/stack/stack_utils.o
-
-# target to build an object file
-srcs/stack/stack_utils.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o
-.PHONY : srcs/stack/stack_utils.c.o
-
-srcs/stack/stack_utils.i: srcs/stack/stack_utils.c.i
-
-.PHONY : srcs/stack/stack_utils.i
-
-# target to preprocess a source file
-srcs/stack/stack_utils.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.i
-.PHONY : srcs/stack/stack_utils.c.i
-
-srcs/stack/stack_utils.s: srcs/stack/stack_utils.c.s
-
-.PHONY : srcs/stack/stack_utils.s
-
-# target to generate assembly for a file
-srcs/stack/stack_utils.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.s
-.PHONY : srcs/stack/stack_utils.c.s
+srcs/push_swap/push_swap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/srcs/push_swap/push_swap.c.s
+.PHONY : srcs/push_swap/push_swap.c.s
 
 # Help Target
 help:
@@ -1802,6 +1721,9 @@ help:
 	@echo "... srcs/checker/error_handler.o"
 	@echo "... srcs/checker/error_handler.i"
 	@echo "... srcs/checker/error_handler.s"
+	@echo "... srcs/checker/get_number.o"
+	@echo "... srcs/checker/get_number.i"
+	@echo "... srcs/checker/get_number.s"
 	@echo "... srcs/checker/get_stack.o"
 	@echo "... srcs/checker/get_stack.i"
 	@echo "... srcs/checker/get_stack.s"
@@ -1964,24 +1886,12 @@ help:
 	@echo "... srcs/libft/get_next_line.o"
 	@echo "... srcs/libft/get_next_line.i"
 	@echo "... srcs/libft/get_next_line.s"
-	@echo "... srcs/stack/clear.o"
-	@echo "... srcs/stack/clear.i"
-	@echo "... srcs/stack/clear.s"
-	@echo "... srcs/stack/pa_pb.o"
-	@echo "... srcs/stack/pa_pb.i"
-	@echo "... srcs/stack/pa_pb.s"
-	@echo "... srcs/stack/print_stack.o"
-	@echo "... srcs/stack/print_stack.i"
-	@echo "... srcs/stack/print_stack.s"
-	@echo "... srcs/stack/sa_sb_ss.o"
-	@echo "... srcs/stack/sa_sb_ss.i"
-	@echo "... srcs/stack/sa_sb_ss.s"
-	@echo "... srcs/stack/stack.o"
-	@echo "... srcs/stack/stack.i"
-	@echo "... srcs/stack/stack.s"
-	@echo "... srcs/stack/stack_utils.o"
-	@echo "... srcs/stack/stack_utils.i"
-	@echo "... srcs/stack/stack_utils.s"
+	@echo "... srcs/push_swap/3_elems.o"
+	@echo "... srcs/push_swap/3_elems.i"
+	@echo "... srcs/push_swap/3_elems.s"
+	@echo "... srcs/push_swap/push_swap.o"
+	@echo "... srcs/push_swap/push_swap.i"
+	@echo "... srcs/push_swap/push_swap.s"
 .PHONY : help
 
 

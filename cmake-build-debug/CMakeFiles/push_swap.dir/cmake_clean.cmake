@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o"
+  "CMakeFiles/push_swap.dir/srcs/checker/get_number.c.o"
   "CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o"
   "CMakeFiles/push_swap.dir/srcs/checker/main.c.o"
   "CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o"
@@ -54,12 +55,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o"
   "CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o"
   "CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o"
-  "CMakeFiles/push_swap.dir/srcs/stack/clear.c.o"
-  "CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o"
-  "CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o"
-  "CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o"
-  "CMakeFiles/push_swap.dir/srcs/stack/stack.c.o"
-  "CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o"
+  "CMakeFiles/push_swap.dir/srcs/push_swap/3_elems.c.o"
+  "CMakeFiles/push_swap.dir/srcs/push_swap/push_swap.c.o"
   "push_swap"
   "push_swap.pdb"
 )

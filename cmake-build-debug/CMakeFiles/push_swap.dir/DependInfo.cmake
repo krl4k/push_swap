@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/kirill/CLionProjects/push_sqp/srcs/checker/error_handler.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/checker/error_handler.c.o"
+  "/home/kirill/CLionProjects/push_sqp/srcs/checker/get_number.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/checker/get_number.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/checker/get_stack.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/checker/get_stack.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/checker/main.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/checker/main.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_atoi.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/libft/ft_atoi.c.o"
@@ -59,12 +60,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_tolower.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/libft/ft_tolower.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/libft/ft_toupper.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/libft/ft_toupper.c.o"
   "/home/kirill/CLionProjects/push_sqp/srcs/libft/get_next_line.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/libft/get_next_line.c.o"
-  "/home/kirill/CLionProjects/push_sqp/srcs/stack/clear.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/clear.c.o"
-  "/home/kirill/CLionProjects/push_sqp/srcs/stack/pa_pb.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/pa_pb.c.o"
-  "/home/kirill/CLionProjects/push_sqp/srcs/stack/print_stack.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/print_stack.c.o"
-  "/home/kirill/CLionProjects/push_sqp/srcs/stack/sa_sb_ss.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/sa_sb_ss.c.o"
-  "/home/kirill/CLionProjects/push_sqp/srcs/stack/stack.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/stack.c.o"
-  "/home/kirill/CLionProjects/push_sqp/srcs/stack/stack_utils.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/stack/stack_utils.c.o"
+  "/home/kirill/CLionProjects/push_sqp/srcs/push_swap/3_elems.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/push_swap/3_elems.c.o"
+  "/home/kirill/CLionProjects/push_sqp/srcs/push_swap/push_swap.c" "/home/kirill/CLionProjects/push_sqp/cmake-build-debug/CMakeFiles/push_swap.dir/srcs/push_swap/push_swap.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -75,6 +72,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../srcs/stack/srcs"
   "../srcs/stack/includes"
   "../srcs/libft"
+  "../srcs/push_swap"
   )
 
 # Targets to which this target links.

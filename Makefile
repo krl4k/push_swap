@@ -9,6 +9,7 @@ INCLUDES   = ./includes/
 
 LIBFT_DIR   = $(SRCS_DIR)libft/
 CHECKER_DIR   = $(SRCS_DIR)checker/
+PUSH_SWAP_DIR   = $(SRCS_DIR)push_swap/
 STACK_DIR     = $(SRCS_DIR)stack/
 
 SRCS_STACK = $(addprefix $(STACK_DIR), clear.c print_stack.c stack.c stack_utils.c \
@@ -16,6 +17,10 @@ SRCS_STACK = $(addprefix $(STACK_DIR), clear.c print_stack.c stack.c stack_utils
 
 SRCS_CHECKER = $(addprefix $(CHECKER_DIR), \
                 main.c get_stack.c get_number.c error_handler.c)
+
+
+SRCS_PUSH_SWAP = $(addprefix $(PUSH_SWAP_DIR), \
+                3_elems.c push_swap.c)
 
 
 OBJ_STACK = $(SRCS_STACK:.c=.o)

@@ -10,9 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "checker.h"
+#include "push_swap.h"
 
 int get_operation(char *line)
 {
@@ -132,13 +131,18 @@ int		main(int argc, char **argv)
 	t_stack	*stack2;
 	t_features features;
 
+	printf("argv[0] = %s\n", argv[0]);
 	if (argc != 1)
 	{
 		init(&stack1);
 		init(&stack2);
 		get_stack(stack1, argc, argv, &features);
-		process(stack1, stack2);
-//		clear(&stack1);
+		if (ft_strcmp(argv[0], "./checker"))
+			process(stack1, stack2);
+		if (ft_strcmp(argv[0], "./checker"))
+			push_swap(stack1, stack2);
+
+		//		clear(&stack1);
 //		clear(&stack2);
 	}
 	return (0);

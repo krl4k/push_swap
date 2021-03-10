@@ -6,5 +6,5 @@ C_FLAGS = -Wall -Wextra -Werror -g   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/kirill/CLionProjects/push_sqp/includes -I/home/kirill/CLionProjects/push_sqp/srcs/stack -I/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs -I/home/kirill/CLionProjects/push_sqp/srcs/stack/includes -I/home/kirill/CLionProjects/push_sqp/srcs/libft 
+C_INCLUDES = -I/home/kirill/CLionProjects/push_sqp/includes -I/home/kirill/CLionProjects/push_sqp/srcs/stack -I/home/kirill/CLionProjects/push_sqp/srcs/stack/srcs -I/home/kirill/CLionProjects/push_sqp/srcs/stack/includes -I/home/kirill/CLionProjects/push_sqp/srcs/libft -I/home/kirill/CLionProjects/push_sqp/srcs/push_swap 
 
